@@ -1,0 +1,35 @@
+# MaceSMP Configuration
+
+# Points awarded per valid kill (anti-farm protected)
+points-per-kill: 1
+
+# How often to reset the lastKills anti-farm queue (in minutes)
+last-kills-reset-minutes: 3
+
+# Maximum size of the lastKills queue (FIFO)
+last-kills-max-size: 3
+
+# Cost in mace points to buy / upgrade one level of an enchant
+enchant-cost: 1
+
+# Max levels for each enchantment (vanilla defaults for reference)
+max-levels:
+  density: 5
+  breach: 4
+  wind_burst: 3
+  fire_aspect: 2
+  unbreaking: 3
+  mending: 1
+
+# Messages (simple, can be expanded later)
+messages:
+  prefix: "<dark_gray>[<gold>MaceSMP</gold>]</dark_gray> "
+  no-permission: "<red>You do not have permission.</red>"
+  must-hold-owned-mace: "<red>You must hold a mace you own in your main hand!</red>"
+  not-enough-points: "<red>You do not have enough mace points.</red>"
+  already-max: "<red>That enchant is already at max level.</red>"
+  incompatible: "<red>That enchant is incompatible with one already on your mace.</red>"
+  bought: "<green>Successfully purchased / upgraded <yellow>%enchant%</yellow> to level <yellow>%level%</yellow>!</green>"
+  shop-header: "<gold>===== Mace Shop =====</gold>"
+  shop-points: "<gray>Your points: <yellow>%points%</yellow>"
+  stats-header: "<gold>===== Your Mace Stats =====</gold>"
