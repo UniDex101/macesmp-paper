@@ -1,0 +1,42 @@
+name: MaceSMP
+version: '${version}'
+main: com.macesmp.MaceSMP
+api-version: '1.21'
+authors: [ UniDex101 ]
+description: Bare-bones Lifesteal-inspired Mace SMP plugin for Paper 1.21
+website: https://github.com/UniDex101/macesmp-paper
+
+commands:
+  maceshop:
+    description: Show the mace enchant shop and your points
+    usage: /maceshop
+    permission: macesmp.shop
+    aliases: [mshop]
+  buy:
+    description: Buy an enchantment for your owned mace (hold it in main hand)
+    usage: /buy <enchant>
+    permission: macesmp.buy
+    aliases: [macebuy]
+  macestats:
+    description: View your mace points, kills, deaths and owned maces
+    usage: /macestats
+    permission: macesmp.stats
+    aliases: [mstats]
+
+permissions:
+  macesmp.*:
+    description: All MaceSMP permissions
+    default: true
+    children:
+      macesmp.shop: true
+      macesmp.buy: true
+      macesmp.stats: true
+  macesmp.shop:
+    description: Access the mace shop
+    default: true
+  macesmp.buy:
+    description: Buy enchants for maces
+    default: true
+  macesmp.stats:
+    description: View personal stats
+    default: true
