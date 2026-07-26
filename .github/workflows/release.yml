@@ -3,7 +3,7 @@ name: Build and Release JAR
 on:
   push:
     tags:
-      - 'v:*'          # Version tags: `v:1.0` and `v:b2.5`
+      - 'v.*'          # Version tags: `v:1.0` and `v:b2.5`
   workflow_dispatch:
 
 permissions:
