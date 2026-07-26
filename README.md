@@ -75,6 +75,7 @@ All permissions default to `true`.
 ---
 
 ## Configuration
+`(plugins/MaceSMP/config.yml)`
 
 ```yaml
 points-per-kill: 1
