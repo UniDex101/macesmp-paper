@@ -67,7 +67,7 @@ All permissions default to `true`.
 
 ## Installation
 
-1. Download the latest `.jar` from the [Releases](https://github.com/UniDex101/macesmp-paper/releases) page (or build it yourself).
+1. Build it yourself [Tutorial](#Building from source)
 2. Drop it into your server’s `plugins` folder.
 3. Restart / reload the server.
 4. (Optional) Edit `plugins/MaceSMP/config.yml` to your liking.
