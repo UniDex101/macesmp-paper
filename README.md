@@ -96,7 +96,7 @@ All messages support MiniMessage tags (<red>, <gold>, <yellow>, etc.).
 
 ---
 
-## build-from-source
+## Build from source
 
 **Requirements:** Java 21
 ```bash
