@@ -67,7 +67,7 @@ All permissions default to `true`.
 
 ## Installation
 
-1. Build it yourself [Tutorial](#Building from source)
+1. Build it yourself [Tutorial](#build-from-source)
 2. Drop it into your server’s `plugins` folder.
 3. Restart / reload the server.
 4. (Optional) Edit `plugins/MaceSMP/config.yml` to your liking.
@@ -96,7 +96,7 @@ All messages support MiniMessage tags (<red>, <gold>, <yellow>, etc.).
 
 ---
 
-## Building from source
+## build-from-source
 
 **Requirements:** Java 21
 ```bash
