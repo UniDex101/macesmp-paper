@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.macesmp"
-version = "b2.6"
+version = "b2.5"
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
