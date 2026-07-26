@@ -100,6 +100,8 @@ All messages support MiniMessage tags (<red>, <gold>, <yellow>, etc.).
 
 **Requirements:** Java 21
 ```bash
+git clone https://github.com/UniDex101/macesmp-paper.git
+cd macesmp-paper
 gradlew build
 ```
 The jar will appear in `build/libs/MaceSMP-b2.5.jar`
